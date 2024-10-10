@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f6ebeb
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #01090e8a;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;  
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d34a0b;
+}
+
+#home {
+    background-color: #4a90e2;
+    background-image: url(https://cdn.pixabay.com/photo/2019/09/29/22/06/light-bulb-4514505_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(197, 103, 8);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    background-color: #c4480a;
+    border-radius: 15px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #f27210;
+    border-radius: 25px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #c4480a;
+    color: rgb(241, 244, 242);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #7c450f;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    /* background-image: url(https://i.pinimg.com/originals/a2/4c/b5/a24cb568fa40046f8562dbc45cea8506.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: #c4480a;
+    justify-content: center;
+    display: flex;
+}
